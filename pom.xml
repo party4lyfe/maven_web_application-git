@@ -97,7 +97,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-		    <url>http://44.201.185.145:8081/repository/maven-releases/</url>
+              <url>http://44.201.185.145:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
@@ -105,8 +105,7 @@
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
 		    <url>http://44.201.185.145:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
-	    
-	</distributionManagement>
+         <distributionManagement>    
 	
 	<build>
 		<finalName>maven-web-app</finalName>
