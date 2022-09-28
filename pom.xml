@@ -26,12 +26,12 @@
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	
         <properties>
 	
-
-	
-		
-		<dependency>
+        <dependencies>
+	               
+                <dependency>		       
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20160212</version>
@@ -105,11 +105,11 @@
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
               <url>http://44.201.185.145:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
-        <distributionManagement>
-         
 	
-	<build>
-		<finalName>maven-web-app</finalName>
+      </distributioManagement>		
+         
+      <build>
+                <finalName>maven-web-app</finalName>
 		
 		<plugins>
 			<plugin>
